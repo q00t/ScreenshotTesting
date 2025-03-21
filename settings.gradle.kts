@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
-include(":module2")
-include(":module1")
+include(":z_module_4")
 include(":module3")
-include(":module_with_underscores")
+include(":a_module_1")
+include(":module2")
