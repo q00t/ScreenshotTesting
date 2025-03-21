@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
-include(":mylibrary")
+include(":module2")
+include(":module1")
+include(":module3")
