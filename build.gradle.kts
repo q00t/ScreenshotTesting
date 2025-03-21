@@ -5,3 +5,11 @@ plugins {
     alias(libs.plugins.compose.compiler) apply false
     alias(libs.plugins.android.library) apply false
 }
+
+allprojects {
+    tasks.withType<Test>().configureEach {
+        maxParallelForks = Runtime.getRuntime()?.availableProcessors()?.div(2) ?: 1
+        forkEvery = 100
+        reports.html.required = false
+    }
+}
