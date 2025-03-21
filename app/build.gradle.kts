@@ -40,7 +40,8 @@ android {
         compose = true
     }
 
-    experimentalProperties["android.experimental.enableScreenshotTest"] = true}
+    experimentalProperties["android.experimental.enableScreenshotTest"] = true
+}
 
 dependencies {
 
