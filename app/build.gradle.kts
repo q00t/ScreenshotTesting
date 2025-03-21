@@ -45,7 +45,7 @@ android {
 
 dependencies {
 
-    implementation(project(":z_module_4"))
+    implementation(project(":z-module-4"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.material)

@@ -9,7 +9,7 @@ plugins {
 allprojects {
     tasks.withType<Test>().configureEach {
         maxParallelForks = Runtime.getRuntime()?.availableProcessors()?.div(2) ?: 1
-        forkEvery = 100
+        forkEvery = 1
         reports.html.required = false
     }
 }
